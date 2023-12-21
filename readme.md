@@ -38,4 +38,10 @@ git push --set-upstream origin main
 ``````
 git checkout -b development
 ``````
-10. Añadimos el archivo readme.md al staging, hacemos commit y push a la rama development.
+10. Añadimos el archivo readme.md al staging, hacemos commit y push a la rama development con **git push origin development** ya que tenemos asignada main por defecto como upstream.
+
+### Hacer un merge
+
+11. Volvemos a la rama main mediante **git checkout main**.
+12. En nuestro caso no hay conflictos y los cambios se añaden automáticamente.
+13. Hacemos un push a la rama main de los cambios **git push origin main**.
