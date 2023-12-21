@@ -26,3 +26,16 @@ git remote add origin git@github.com:Portelldx/bootcampjs-modulo00.git
 
 7. Comiteamos **git commit -m "Creado archivo readme.md"**.
 
+8. Asignamos y definimos la rama remota por defecto de github **Main** y hacemos el push.
+
+``````
+git push --set-upstream origin main
+```````
+
+### Crear una rama
+
+9. Creamos la rama introduciendo **git checkout** y nos cambiamos directamente con **-b** a la rama development :
+``````
+git checkout -b development
+``````
+10. Añadimos el archivo readme.md al staging, hacemos commit y push a la rama development.
