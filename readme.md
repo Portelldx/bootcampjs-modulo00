@@ -43,5 +43,6 @@ git checkout -b development
 ### Hacer un merge
 
 11. Volvemos a la rama main mediante **git checkout main**.
+13. Hacemos merge de la rama development introduciendo **git merge development**.
 12. En nuestro caso no hay conflictos y los cambios se añaden automáticamente.
 13. Hacemos un push a la rama main de los cambios **git push origin main**.
